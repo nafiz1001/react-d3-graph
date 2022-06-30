@@ -3,7 +3,7 @@ const path = require("path");
 
 module.exports = {
   context: path.join(__dirname, "sandbox"),
-  devtool: "cheap-module-eval-source-map",
+  devtool: "eval-cheap-module-source-map",
   entry: "./index.jsx",
   output: {
     path: __dirname + "/sandbox/",
